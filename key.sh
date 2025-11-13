@@ -1,6 +1,6 @@
 read -p "masukan key : " key
 case $key in
-111)
+hai)
 echo -e "done"
 sleep 3
 ;;
