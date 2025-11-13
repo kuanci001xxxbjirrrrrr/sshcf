@@ -5,7 +5,7 @@
 
 
 
-
+echo -e "\r welcome"
 read -sp "masukan key : " key
 case $key in
 hei)
