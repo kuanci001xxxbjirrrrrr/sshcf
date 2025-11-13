@@ -4,7 +4,8 @@
 
 
 
-
+echo -e "key 👇 : "
+read
 read -sp "masukan key : " key
 
 if [ $key = "123" ]
