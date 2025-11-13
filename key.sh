@@ -4,8 +4,10 @@
 
 
 
+
+
 read -sp "masukan key : " key
-case $keyin
+case $key in
 hei)
 echo -e "done"
 sleep 3
