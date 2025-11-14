@@ -26,7 +26,9 @@ ${a}$garis2
 $a"
 read -sp "   masukan key : " key
 case $key in
-"wewokdetokNOTONLYwokdetoktokUGMtttsssss")
+#"
+#wewokdetokNOTONLYwokdetoktokUGMtttsssss")
+"wewokdetokNOTONLYwokdetoktokUGMtttsssssoak")
 #"
 #1109-1010")
 echo -e "$h done"
