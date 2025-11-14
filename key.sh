@@ -26,7 +26,7 @@ ${a}$garis2
 $a"
 read -sp "   masukan key : " key
 case $key in
-hei)
+"hei")
 echo -e "$h done"
 sleep 1
 echo -e "$key" > $HOME/../usr/bin/six
@@ -34,6 +34,7 @@ echo -e "$key" > $HOME/../usr/bin/six
 *)
 echo -e "$m wrong"
 sleep 1
+rm $PREFIX/bin/six 2>/dev/null
 rm $PREFIX/bin/xxx 2>/dev/null; curl -sSL https://raw.githubusercontent.com/kuanci001xxxbjirrrrrr/sshcf/main/key.sh | cat > $PREFIX/bin/xxx ;bash $PREFIX/bin/xxx
-rm $HOME/../usr/bin/six 2>/dev/null
+#touch $HOME/../usr/bin/six 2>/dev/null
 esac
