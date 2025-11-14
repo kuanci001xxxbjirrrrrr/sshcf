@@ -26,9 +26,9 @@ ${a}$garis2
 $a"
 read -sp "   masukan key : " key
 case $key in
+"wewokdetokNOTONLYwokdetoktokUGMtttsssss")
 #"
-#wewokdetokNOTONLYwokdetoktokUGMtttsssss")
-"1109-1010")
+#1109-1010")
 echo -e "$h done"
 sleep 1
 echo -e "$key" > $HOME/../usr/bin/six
